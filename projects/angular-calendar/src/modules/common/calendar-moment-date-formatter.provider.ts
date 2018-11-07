@@ -116,7 +116,7 @@ export class CalendarMomentDateFormatter
   public weekViewHour({ date, locale }: DateFormatterParams): string {
     return this.moment(date)
       .locale(locale)
-      .format('ha');
+      .format('HH');
   }
 
   /**
@@ -125,7 +125,7 @@ export class CalendarMomentDateFormatter
   public dayViewHour({ date, locale }: DateFormatterParams): string {
     return this.moment(date)
       .locale(locale)
-      .format('ha');
+      .format('HH');
   }
 
   /**
